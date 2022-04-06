@@ -1,0 +1,4 @@
+Notes from intro to git lesson:
+
+ - git status -> shows files that need to be staged or are currently in the staging area.
+ 

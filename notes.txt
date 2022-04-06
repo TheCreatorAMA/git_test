@@ -1,5 +1,10 @@
 Notes from intro to git lesson:
 
+ - When you first create a new repo and you want to clone it follow these steps:
+  1. Make sure you have an ssh key set up so you can clone it using ssh.
+  2. do git clone <ssh link copied from github repo>
+
  - git status -> shows files that need to be staged or are currently in the staging area.
  - git commit -m -> commits staged files with a message 
  - git log -> Shows history of actions for current repo 
+ - git push -> Pushes commits to repo

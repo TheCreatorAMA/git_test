@@ -8,3 +8,8 @@ Notes from intro to git lesson:
  - git commit -m -> commits staged files with a message 
  - git log -> Shows history of actions for current repo 
  - git push -> Pushes commits to repo
+
+ Branches:
+  - to make a new branch and switch to it -> git checkout -b <branch name>
+  - to merge branch to main -> git merge
+  - to delete old branch after it has been merged -> git branch -d <branch_name> (if it has been merged) or git branch -D <branch_name> (if it hasnt been merged)

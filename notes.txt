@@ -9,8 +9,40 @@ Notes from intro to git lesson:
  - git log -> Shows history of actions for current repo 
  - git push -> Pushes commits to repo
 
+<<<<<<< HEAD
  Branches:
   - to make a new branch and switch to it -> git checkout -b <branch name>
   - to push new branch to GitHub -> git push origin rps-ui
   - to merge branch to main -> git merge
   - to delete old branch after it has been merged -> git branch -d <branch_name> (if it has been merged) or git branch -D <branch_name> (if it hasnt been merged)
+=======
+ 
+Git commit messages:
+  7 rules:
+    1. Seperate subject from the body with a blank line
+    2. Limit the subject line to 50 characters 
+    3. Capitalize the subject line
+    4. Do not end the subject line with a period 
+    5. use the imperative mood in the subject line (it should sound like you
+    are giving a command like "clean your room")
+
+    Pro tip:
+    A properly formed Git commit subject line should always be able to complete 
+    the following sentence: If applied, this commit will your subject line here
+
+    If applied, this commit will your subject line here
+    6. Wrap the body at 72 characters
+    7. Use the body to explain what and whys vs how
+
+git commit -m "some message"
+  mainly useful for short fixes that dont need a lot of 
+  explanation such as "Updated readme". However, if the a 
+  commit needs a lengthy message use a text editor 
+
+merging branches:
+  Workflow to merge branches:
+    - git checkout <branch you wnat other branch to merge into>
+    - git merge <branch you want to merge into current branch>
+    - git push origin main
+    - git branch -d rps-ui and git push --delete origin rps-ui to remove branch from local version and remote
+>>>>>>> ee15efc (Add notes on branches and merging)
